@@ -1,0 +1,34 @@
+  151  git init
+  152  git remote add origin https://github.com/SandraMile/Checkpoint-SandraDiazgranados.git
+  153  git remote -v
+  154  touch main.js
+  155  touch index.html
+  156  commit 01 de SandraDiazgranados
+  157  git commit 01 de SandraDiazgranados
+  158  clear
+  159  git add .
+  160  git commit -m "commit 01 de SandraDiazgranados"
+  161  git push origin main
+  162  git status
+  163  git checkout -b feature
+  164  mkdir Hardware
+  165  mkdir Software
+  166  mkdir SeguridadInformatica
+  167  touch Hardware/resumen.txt
+  168  touch Software/resumen.txt
+  169  touch SeguridadInformatica/resumen.txt
+  170  git add .
+  171  git commit -m "commit 02 de SandraDiazgranados"
+  172  git push origin feature
+  173  clear
+  174  git checkout main
+  175  git mv main.js resumenHardware.txt
+  176  ls -R
+  177  git mv index.html resumenSoftware.txt
+  178  nano resumenSoftware.txt
+  179  git add .
+  180  git commit -m "commit 03 de SandraDiazgranados"
+  181  clear
+  182  touch comandos.txt
+  183  history
+  184  history 34 > comandos.txt
